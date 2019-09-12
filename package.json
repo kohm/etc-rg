@@ -1,0 +1,32 @@
+{
+  "name": "etc-rg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kohm/etc-rg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kohm/etc-rg/issues"
+  },
+  "homepage": "https://github.com/kohm/etc-rg#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
+    "mongoose": "^5.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "nodemon": "^1.19.1"
+  }
+}
